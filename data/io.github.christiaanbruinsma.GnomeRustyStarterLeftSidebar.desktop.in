@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Gnome Rusty Starter
+Comment=Rust + GTK4 + libadwaita starter with a left navigation sidebar
+Comment[nl]=Rust + GTK4 + libadwaita-starter met een linkernavigatiezijbalk
+Comment[de]=Rust + GTK4 + libadwaita-Starter mit einer linken Navigations-Seitenleiste
+Comment[fr]=Starter Rust + GTK4 + libadwaita avec une barre latérale de navigation à gauche
+Comment[es]=Starter de Rust + GTK4 + libadwaita con una barra lateral de navegación izquierda
+Comment[it]=Starter Rust + GTK4 + libadwaita con una barra laterale di navigazione a sinistra
+Comment[pt]=Starter de Rust + GTK4 + libadwaita com uma barra lateral de navegação à esquerda
+Exec=gnome-rusty-starter-left-sidebar
+Icon=@APP_ID@
+Terminal=false
+Type=Application
+Categories=Development;Utility;
+Keywords=rust;gtk;gnome;libadwaita;starter;template;sidebar;
+StartupNotify=true
