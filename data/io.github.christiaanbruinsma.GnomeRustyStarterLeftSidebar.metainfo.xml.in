@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>@APP_ID@</id>
+  <name>Gnome Rusty Starter</name>
+  <summary>Rust + GTK4 + libadwaita starter with a left navigation sidebar</summary>
+  <summary xml:lang="nl">Rust + GTK4 + libadwaita-starter met een linkernavigatiezijbalk</summary>
+  <summary xml:lang="de">Rust + GTK4 + libadwaita-Starter mit einer linken Navigations-Seitenleiste</summary>
+  <summary xml:lang="fr">Starter Rust + GTK4 + libadwaita avec une barre latérale de navigation à gauche</summary>
+  <summary xml:lang="es">Starter de Rust + GTK4 + libadwaita con una barra lateral de navegación izquierda</summary>
+  <summary xml:lang="it">Starter Rust + GTK4 + libadwaita con una barra laterale di navigazione a sinistra</summary>
+  <summary xml:lang="pt">Starter de Rust + GTK4 + libadwaita com uma barra lateral de navegação à esquerda</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <url type="homepage">https://github.com/christiaanbruinsma/gnome-rusty-starter-left-sidebar</url>
+  <developer id="io.github.christiaanbruinsma">
+    <name>Christiaan Bruinsma</name>
+  </developer>
+  <description>
+    <p>Gnome Rusty Starter Left Sidebar is a Rust + GTK4 + libadwaita template for GNOME applications with a left navigation sidebar. The sidebar acts as a menu for switching between application screens; the main area renders the active screen.</p>
+    <p xml:lang="nl">Gnome Rusty Starter Left Sidebar is een Rust + GTK4 + libadwaita-sjabloon voor GNOME-toepassingen met een linkernavigatiezijbalk. De zijbalk dient als menu om te schakelen tussen toepassingsschermen; het hoofdgebied toont het actieve scherm.</p>
+    <p xml:lang="de">Gnome Rusty Starter Left Sidebar ist eine Rust + GTK4 + libadwaita-Vorlage für GNOME-Anwendungen mit einer linken Navigations-Seitenleiste. Die Seitenleiste dient als Menü zum Wechseln zwischen Anwendungsbildschirmen; der Hauptbereich zeigt den aktiven Bildschirm.</p>
+    <p xml:lang="fr">Gnome Rusty Starter Left Sidebar est un modèle Rust + GTK4 + libadwaita pour les applications GNOME avec une barre latérale de navigation à gauche. La barre latérale sert de menu pour basculer entre les écrans de l’application ; la zone principale affiche l’écran actif.</p>
+    <p xml:lang="es">Gnome Rusty Starter Left Sidebar es una plantilla de Rust + GTK4 + libadwaita para aplicaciones GNOME con una barra lateral de navegación izquierda. La barra lateral actúa como menú para cambiar entre pantallas de la aplicación; el área principal muestra la pantalla activa.</p>
+    <p xml:lang="it">Gnome Rusty Starter Left Sidebar è un modello Rust + GTK4 + libadwaita per applicazioni GNOME con una barra laterale di navigazione a sinistra. La barra laterale funge da menu per passare tra le schermate dell’applicazione; l’area principale mostra la schermata attiva.</p>
+    <p xml:lang="pt">O Gnome Rusty Starter Left Sidebar é um modelo de Rust + GTK4 + libadwaita para aplicações GNOME com uma barra lateral de navegação à esquerda. A barra lateral serve de menu para alternar entre ecrãs da aplicação; a área principal mostra o ecrã ativo.</p>
+  </description>
+  <launchable type="desktop-id">@APP_ID@.desktop</launchable>
+  <provides>
+    <binary>gnome-rusty-starter-left-sidebar</binary>
+  </provides>
+  <releases>
+    <release version="0.1.0" date="2026-08-17">
+      <description>
+        <p>Initial template release with a left-sidebar layout and reusable Rust + GTK4 + libadwaita platform plumbing.</p>
+      </description>
+    </release>
+  </releases>
+  <content_rating type="oars-1.1" />
+</component>

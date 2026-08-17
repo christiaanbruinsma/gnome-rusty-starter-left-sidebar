@@ -1,0 +1,30 @@
+app-id: io.github.christiaanbruinsma.GnomeRustyStarterLeftSidebar.Devel
+runtime: org.gnome.Platform
+runtime-version: '50'
+sdk: org.gnome.Sdk
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.rust-stable
+command: gnome-rusty-starter-left-sidebar
+
+build-options:
+  append-path: /usr/lib/sdk/rust-stable/bin
+  build-args:
+    # Development-only: allow Cargo to resolve dependencies for the first compile gate.
+    # Vendor dependencies before a release build.
+    - --share=network
+  env:
+    CARGO_HOME: /run/build/gnome-rusty-starter-left-sidebar/cargo-home
+
+finish-args:
+  - --share=ipc
+  - --socket=wayland
+  - --socket=fallback-x11
+
+modules:
+  - name: gnome-rusty-starter-left-sidebar
+    buildsystem: meson
+    config-opts:
+      - -Dprofile=development
+    sources:
+      - type: dir
+        path: .
